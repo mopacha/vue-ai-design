@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "A set of AI components based on Vue",
   "author": "zifeiyu",
-  "private": true,
+  "private": false,
+  "main": "dist/ai-design.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",

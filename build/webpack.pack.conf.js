@@ -7,7 +7,7 @@ module.exports = {
   // 根据不同的执行环境配置不同的入口
   entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, './dist'),
+    path: path.resolve(__dirname, '../dist'),
     publicPath: '/dist/',
     filename: 'ai-design.js',
     library: 'ai-design', // 指定的就是你使用require时的模块名
