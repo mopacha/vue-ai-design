@@ -1,6 +1,6 @@
 # vue-ai-design
 
-> A Vue.js project
+> A set of AI components based on Vue
 
 ## Build Setup
 
@@ -11,4 +11,6 @@ npm run dev
 npm run build
 
 ```
+
+[源码](https://github.com/mopacha/vue-ai-design)
 
