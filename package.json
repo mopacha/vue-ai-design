@@ -1,10 +1,16 @@
 {
   "name": "vue-ai-design",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A set of AI components based on Vue",
   "author": "zifeiyu",
   "private": false,
   "main": "dist/ai-design.js",
+  "files": [
+    "src/packages",
+    "src/componentsDemos",
+    "src/index.js",
+		"dist"
+	],
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
