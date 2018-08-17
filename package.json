@@ -4,7 +4,7 @@
   "description": "A set of AI components based on Vue",
   "author": "zifeiyu",
   "private": false,
-  "main": "dist/ai-design.js",
+  "main": "dist/vue-ai-design.js",
   "files": [
     "src/packages",
     "src/componentsDemos",
