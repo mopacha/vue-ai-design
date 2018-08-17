@@ -9,8 +9,8 @@
     "src/packages",
     "src/componentsDemos",
     "src/index.js",
-		"dist"
-	],
+    "dist"
+  ],
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",

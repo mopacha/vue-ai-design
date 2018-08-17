@@ -2,15 +2,15 @@
 
 > A set of AI components based on Vue
 
-## Build Setup
+## Installation
 
-``` bash
-npm install
-npm run dev
+#### npm
 
-npm run build
+``` 
+npm install vue-ai-design --save
 
 ```
+
 
 [源码](https://github.com/mopacha/vue-ai-design)
 
