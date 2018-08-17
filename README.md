@@ -11,6 +11,5 @@ npm install vue-ai-design --save
 
 ```
 
-
-[源码](https://github.com/mopacha/vue-ai-design)
+[Source code](https://github.com/mopacha/vue-ai-design)
 
