@@ -1,13 +1,12 @@
 {
   "name": "vue-ai-design",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "description": "A set of AI components based on Vue",
   "author": "zifeiyu",
   "private": false,
   "main": "dist/vue-ai-design.js",
   "files": [
     "src/packages",
-    "src/componentsDemos",
     "src/index.js",
     "dist"
   ],

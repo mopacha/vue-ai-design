@@ -1,10 +1,10 @@
 import AiHighcharts from './packages/highcharts/index.js'
 
 const components = [
-    AiHighcharts
+  AiHighcharts
 ]
 
-const install = function(Vue, opts = {}) {
+const install = function (Vue, opts = {}) {
   components.map(component => {
     Vue.component(component.name, component);
   })
@@ -15,8 +15,10 @@ if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue);
 }
 
-export default {
+export default  {
+  version: '1.0.9',
   install,
   AiHighcharts
 }
 
+export { AiHighcharts }
