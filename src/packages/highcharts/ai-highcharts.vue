@@ -8,11 +8,15 @@ import HighchartsMore from "highcharts/highcharts-more";
 import HighchartsDrilldown from "highcharts/modules/drilldown";
 import Highcharts3D from "highcharts/highcharts-3d";
 import Exporting from "highcharts/modules/exporting";
+import Heatmap from "highcharts/modules/heatmap";
+import HistogramBellcurve from "highcharts/modules/histogram-bellcurve";
 
 HighchartsMore(Highcharts);
 HighchartsDrilldown(Highcharts);
 Highcharts3D(Highcharts);
 Exporting(Highcharts);
+Heatmap(Highcharts);
+HistogramBellcurve(Highcharts);
 
 export default {
   props: ["options", "styles"],
